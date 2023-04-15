@@ -63,10 +63,11 @@ description: The Debuggy home page.
 
             <p class="role">{{card.role}}</p>
             <p class="description line-clamp">{{card.description}}</p>
+            
             {% for social-link in card.social %}
             {% if social-link %}
             <div class="socials">
-                <a href="{{social-link}}"><i data-feather="globe">{{social-link}}</i></a>
+                <a href="{{social-link}}"><i data-feather="globe"></i></a>
             </div>
             {% endif %}
             {% endfor %}

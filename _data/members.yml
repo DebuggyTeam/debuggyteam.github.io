@@ -1,11 +1,11 @@
 - name: Studiosys
   team: development
   role: debuggy dev
-  description: description not set  
+  description: description not set
+  pronouns: he/him
  
   social:
     github: peaceheis
-    pronouns: he/him
 
   is-plural-system: true
   is-system-memberlist-redacted: true
@@ -13,11 +13,11 @@
 - name: Falkreon
   team: development
   role: debuggy dev
-  description: description not set  
+  description: description not set
+  pronouns:
  
   social:
     github: falkreon
-    pronouns: 
 
   is-plural-system: false
   is-system-memberlist-redacted: false
@@ -25,11 +25,11 @@
 - name: Bubblie
   team: development
   role: debuggy dev
-  description: description not set  
+  description: description not set
+  pronouns:
  
   social:
     github: Bubblie01
-    pronouns: 
 
   is-plural-system: false
   is-system-memberlist-redacted: false
@@ -37,12 +37,12 @@
 - name: woodiertexas
   team: development
   role: debuggy dev
-  description: description not set  
+  description: description not set
+  pronouns: he/him
  
   social:
     pfp-override: https://cdn.discordapp.com/avatars/788483848127905844/d2daa4f54fb04ff58319fc0602ee159a.webp
     github: woodiertexas
-    pronouns: he/him
 
   is-plural-system: false
   is-system-memberlist-redacted: false
@@ -50,11 +50,11 @@
 - name: Octal
   team: development
   role: debuggy dev
-  description: description not set  
+  description: description not set
+  pronouns:
  
   social:
     github: oliver-makes-code
-    pronouns: 
 
   is-plural-system: true
   is-system-memberlist-redacted: true
@@ -62,11 +62,11 @@
 - name: Xanderstuff
   team: development
   role: debuggy dev
-  description: description not set  
+  description: description not set
+  pronouns:
  
   social:
     github: xanderstuff
-    pronouns: 
 
   is-plural-system: false
   is-system-memberlist-redacted: false
@@ -74,11 +74,11 @@
 - name: Tibs
   team: development
   role: debuggy dev
-  description: description not set 
+  description: description not set
+  pronouns:
  
   social:
     github: TibiNonEst
-    pronouns: 
 
   is-plural-system: false
   is-system-memberlist-redacted: false
@@ -87,9 +87,9 @@
   team: development
   role: debuggy dev
   description: 
+  pronouns:
   
   social:
-    pronouns:
     github: Ampflower
     personal-site: https://ampflower.gay/
     
