@@ -1,3 +1,17 @@
+- name: Ampflower
+  team: development
+  role: debuggy dev
+  description: description not set
+
+  social:
+    pronouns:
+    github: Ampflower
+    links:
+      personal-site: https://ampflower.gay/
+
+  is-plural-system: false
+  is-system-memberlist-redacted: false
+
 - name: Studiosys
   team: development
   role: debuggy dev
@@ -31,6 +45,18 @@
     github: Bubblie01
     pronouns:
 
+  is-plural-system: false
+  is-system-memberlist-redacted: false
+
+- name: Maximum
+  team: development
+  role: debuggy dev
+  description: description not set
+
+  social:
+    pronouns:
+    github: maximumpower55
+  
   is-plural-system: false
   is-system-memberlist-redacted: false
 
@@ -78,20 +104,6 @@
   social:
     github: TibiNonEst
     pronouns:
-
-  is-plural-system: false
-  is-system-memberlist-redacted: false
-
-- name: Ampflower
-  team: development
-  role: debuggy dev
-  description: description not set
-
-  social:
-    pronouns:
-    github: Ampflower
-    links:
-      personal-site: https://ampflower.gay/
 
   is-plural-system: false
   is-system-memberlist-redacted: false
