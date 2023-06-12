@@ -6,11 +6,12 @@
 @import "navigation";
 
 :root {
-	--font: Arial, Helvetica, sans-serif;
+	--font: Poppins, sans-serif;
 }
 
-h1, h2, p, li, a {
+h1, h2, h3, p, li, a {
 	font-family: var(--font);
+	text-rendering: optimizeLegibility;
 }
 
 p {
@@ -25,13 +26,6 @@ a {
 	}
 }
 
-main {
-	min-height: 100%;
-	max-width: 90em;
-	margin-inline: auto;
-	text-align: center;
-}
-
 .updated {
 	font-size: 1.25rem;
 	margin-top: -20px;
@@ -40,6 +34,40 @@ main {
 /** Fix annoying padding */
 body {
 	margin: 0;
+
+	background-color: var(--background-color);
+	background-image: url("../background.png");
+	background-repeat: repeat;
+	background-size: 500px;
+}
+
+section {
+
+	display: block;
+	padding: 3rem;
+
+	min-height: 100%;
+	margin-inline: auto;
+	text-align: center;
+
+}
+
+.solid {
+
+	box-shadow: rgba(0, 0, 0, 0.58) 0px 0px 9pt;
+	background-color: var(--debuggy-dark-blue);
+	color: var(--text-color);
+	border: 12px solid var(--background-color);
+	border-radius: 8px;
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+
+.below {
+
+	margin-top: 7rem;
+
 }
 
 /** Lists don't play super well with being centered */
@@ -50,6 +78,11 @@ ul, ol {
 }
 
 .profiles {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+	color: black;
 
 	h1 {
 		margin: 0;
@@ -61,10 +94,24 @@ ul, ol {
 		object-fit: cover;
 	}
 
+	a {
+		color: black;
+
+		&:hover {
+			color:chartreuse;
+		}
+	}
+
 	.profile-card {
+		box-shadow: rgba(0, 0, 0, 0.58) 0px 0px 9pt;
+		border: 0px;
+		outline: 0px;
+		border-radius: 8px;
+		margin: 0px 10px;
+
 		min-width: 250px;
 		max-width: 275px;
-		min-height: 325px;
+		min-height: 330px;
 		text-align: center;
 		padding: 8px;
 	}
@@ -105,56 +152,42 @@ ul, ol {
 }
 
 .profiles.dev-team {
-	display: flex;
-	flex-wrap: wrap;
-	flex-basis: 250px;
-	justify-content: center;
-	align-content: top;
-	flex-shrink: 0;
-	flex-grow: 1;
-
-	a {
-		color: black;
-
-		&:hover {
-			color: chartreuse;
-		}
-	}
-
 	.profile-card {
-		background-color: var(--debuggy-team);
-		border: 3px solid var(--debuggy-team-border);
+		background-color: var(--card-color);
+		border: 3px solid var(--card-border-color);
 
-		margin: 20px 40px 20px 40px;
+		margin: 5rem 2rem 0;
 	}
 
 	.profile-picture {
-		border: 3px solid var(--debuggy-team-border);
+		border: 3px solid var(--card-border-color);
 	}
 }
 
 .profiles.community-team {
-	display: grid;
-	row-gap: 73px;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	place-items: center;
-
-	a {
-		color: black;
-
-		&:hover {
-			color:chartreuse;
-		}
-	}
-
 	.profile-card {
-		background-color: var(--debuggy-moderation);
-		border: 3px solid var(--debuggy-moderation-border);
+		background-color: var(--moderation-card-color);
+		border: 3px solid var(--moderation-card-border-color);
+
+		margin: 5rem 2rem 0;
 	}
 
 	.profile-picture {
-		border: 3px solid var(--debuggy-moderation-border);
+		border: 3px solid var(--moderation-card-border-color);
+	}
+}
+
+.profiles.contributors {
+	.profile-card {
+		background-color: #2ac48e;
+		border: 3px solid #197655;
+
+		margin: 5rem 2rem 0;
+		height: 23rem;
+	}
+
+	.profile-picture {
+		border: 3px solid #197655;
 	}
 }
 
@@ -162,17 +195,20 @@ ul, ol {
 	border: none;
 	padding: 15px 32px;
 	color: var(--text-color);
-	background-color: var(--debuggy-team);
+	background-color: var(--card-color);
 
 	&:hover {
 		filter: saturate(200%);
 	}
 }
 
-.footer {
-	display: grid;
-	grid-template-columns: 100vw 100vw 100vw;
+footer {
 	padding: 10px;
-	background-color: var(--navbar-color);
- }
-
+	margin-top: 50px;
+	background-color: var(--debuggy-dark-blue);
+	color: var(--text-color);
+	
+	p {
+		text-align: center;
+	}
+}
