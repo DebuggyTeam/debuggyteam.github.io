@@ -12,18 +12,6 @@
   is-plural-system: false
   is-system-memberlist-redacted: false
 
-- name: Studiosys
-  team: development
-  role: debuggy dev
-  description: description not set
-
-  social:
-    github: peaceheis
-    pronouns: he/him
-
-  is-plural-system: true
-  is-system-memberlist-redacted: true
-
 - name: Falkreon
   team: development
   role: debuggy dev
@@ -32,6 +20,18 @@
   social:
     github: falkreon
     pronouns: he/they
+
+  is-plural-system: false
+  is-system-memberlist-redacted: false
+
+- name: Studiosys
+  team: development
+  role: debuggy dev
+  description: description not set
+
+  social:
+    github: peaceheis
+    pronouns: he/him
 
   is-plural-system: false
   is-system-memberlist-redacted: false
@@ -48,6 +48,18 @@
   is-plural-system: false
   is-system-memberlist-redacted: false
 
+- name: Xanderstuff
+  team: development
+  role: debuggy dev
+  description: description not set
+
+  social:
+    github: xanderstuff
+    pronouns:
+
+  is-plural-system: false
+  is-system-memberlist-redacted: false
+  
 - name: Maximum
   team: development
   role: debuggy dev
@@ -83,18 +95,6 @@
 
   is-plural-system: true
   is-system-memberlist-redacted: true
-
-- name: Xanderstuff
-  team: development
-  role: debuggy dev
-  description: description not set
-
-  social:
-    github: xanderstuff
-    pronouns:
-
-  is-plural-system: false
-  is-system-memberlist-redacted: false
 
 - name: Tibs
   team: development
