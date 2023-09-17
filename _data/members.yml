@@ -36,18 +36,6 @@
   is-plural-system: false
   is-system-memberlist-redacted: false
 
-- name: Bubblie
-  team: development
-  role: debuggy dev
-  description: description not set
-
-  social:
-    github: Bubblie01
-    pronouns:
-
-  is-plural-system: false
-  is-system-memberlist-redacted: false
-
 - name: Xanderstuff
   team: development
   role: debuggy dev
