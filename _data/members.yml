@@ -47,18 +47,6 @@
 
   is-plural-system: false
   is-system-memberlist-redacted: false
-  
-- name: Maximum
-  team: development
-  role: debuggy dev
-  description: description not set
-
-  social:
-    pronouns:
-    github: maximumpower55
-  
-  is-plural-system: false
-  is-system-memberlist-redacted: false
 
 - name: woodiertexas
   team: development
